@@ -123,6 +123,30 @@
 			'assets/images/fotodulce1.jpg'
 		], {duration: 2500, fade: 300});
 
+
+
+		/* ---------------------------------------------- /*
+		 * Intro, testimonials slider
+		/* ---------------------------------------------- */
+
+		$('.intro-slider').owlCarousel({
+			paginationSpeed: 600,
+			pagination: false,
+			navigation: false,
+			singleItem: true,
+			slideSpeed: 600,
+			autoPlay: 3000
+		});
+
+		$('.testimonials-slider').owlCarousel({
+			paginationSpeed: 600,
+			pagination: false,
+			navigation: false,
+			singleItem: true,
+			slideSpeed: 300,
+			autoPlay: 5000
+		});
+
 		/* ---------------------------------------------- /*
 		 * Equal height columns
 		/* ---------------------------------------------- */

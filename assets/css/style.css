@@ -728,6 +728,7 @@ h1 .menu-title{
 
 .copyright {
 	margin: 0;
+	margin-bottom: 50px
 }
 
 .social-links {
@@ -769,7 +770,7 @@ h1 .menu-title{
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 15px;
+	font-size: 17px;
 	letter-spacing: 1px;
 	color: #fff;
 }
@@ -1063,6 +1064,11 @@ position: absolute;
  * Nuestra historia 
 /* ---------------------------------------------- */
 
+.logopeppe{
+	height: 120px;
+	max-width: 100%
+
+}
 .col-sm-6{
 	padding-right: 0; 
 
@@ -1080,7 +1086,7 @@ position: absolute;
 
 .fondomadera{
 	background-image: url("../images/fondo_madera.jpg");
-    padding: 34px;
+    padding: 35px;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1140,7 +1146,7 @@ span{
 }
 
 .marginmapcontact{
-	margin-top: 240px;
+	margin-top: 200px;
 	background: white;
 	padding: 10px;
 }
@@ -1155,7 +1161,7 @@ span{
 }
 
 .backgroundmap{
-	background-image: url("../images/mercadoventas.jpg");
+	background-image: url("../images/fotocontacto.jpg");
     padding: 70px;
     height: 100%;
     background-size: cover;

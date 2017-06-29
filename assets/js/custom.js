@@ -121,48 +121,7 @@
 			'assets/images/fotosalada2.jpg',
 			'assets/images/fotosalada3.jpg',
 			'assets/images/fotodulce1.jpg'
-		], {duration: 2000, fade: 300});
-
-		/* ---------------------------------------------- /*
-		 * Video background
-		/* ---------------------------------------------- */
-
-		var $videoBackground = $('.video-background');
-
-		if ($videoBackground.length > 0) {
-			var BV = new $.BigVideo({
-				container: $('.video-background'),
-				useFlashForFirefox: false
-			});
-			BV.init();
-			BV.show(
-				{ type: 'video/mp4',   src: 'assets/video/video.mp4', ambient:true },
-				{ type: 'video/webm',  src: 'assets/video/video.webm', ambient:true },
-				{ type: 'video/ogg',   src: 'assets/video/video.ogv', ambient:true }
-			);
-		}
-
-		/* ---------------------------------------------- /*
-		 * Intro, testimonials slider
-		/* ---------------------------------------------- */
-
-		$('.intro-slider').owlCarousel({
-			paginationSpeed: 600,
-			pagination: false,
-			navigation: false,
-			singleItem: true,
-			slideSpeed: 600,
-			autoPlay: 3000
-		});
-
-		$('.testimonials-slider').owlCarousel({
-			paginationSpeed: 600,
-			pagination: false,
-			navigation: false,
-			singleItem: true,
-			slideSpeed: 300,
-			autoPlay: 5000
-		});
+		], {duration: 2500, fade: 300});
 
 		/* ---------------------------------------------- /*
 		 * Equal height columns

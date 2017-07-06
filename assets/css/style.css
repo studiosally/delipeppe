@@ -18,8 +18,8 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
-	color: #999;
+	text-decoration: underline;
+	color: black;
 }
 
 /* ---------------------------------------------- /*
@@ -137,11 +137,14 @@ blockquote .small {
 .iconbox-title {
 	font: 700 28px/1.2 'Dancing Script', cursive;
 	margin: 0 0 18px;
+	text-align: center;
 }
 
 .module-title,
 .callout-text {
 	font-size: 50px;
+	text-align: center;
+
 }
 
 .module-subtitle {
@@ -505,6 +508,14 @@ textarea.form-control {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+
+#callout-one {
+    height: 180px;
+}
+
+}
+
 #callout-two {
 	background-image: url(../images/catering.jpg);
 	width: 100%;
@@ -726,6 +737,14 @@ h1 .menu-title{
 	color: #FFF;
 }
 
+@media (max-width: 767px) {
+#footer {
+	display: flex;
+	align-self: flex-end;
+}
+
+}
+
 .copyright {
 	margin: 0;
 	margin-bottom: 50px
@@ -760,7 +779,6 @@ h1 .menu-title{
 
 .navbar-brand{
 	float: left;
-    height: 130px;
 }
 
 .navbar-custom .navbar-nav {
@@ -788,10 +806,6 @@ h1 .menu-title{
 	outline: 0;
 	color: #fff;
 }
-
-
-
-
 
 
 .navbar-custom li > a {
@@ -1065,8 +1079,19 @@ position: absolute;
 /* ---------------------------------------------- */
 
 .logopeppe{
-	height: 120px;
-	max-width: 100%
+	height: 60px;
+	max-width: 100%;
+	margin: 2px;
+
+}
+
+@media (max-width: 767px) {
+
+.logopeppe{
+    height: 45px;
+    padding-left: 5px;
+    margin: 4px;
+}
 
 }
 .col-sm-6{
@@ -1075,10 +1100,11 @@ position: absolute;
 }
 
 .aboutpeppe{
-     background-image: url("../images/foto_historia.jpg");
+    background-image: url("../images/foto_historia.jpg");
     padding: 0;
     background-size: cover;
-    width: 720px;
+    max-height: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -1086,8 +1112,9 @@ position: absolute;
 
 .fondomadera{
 	background-image: url("../images/fondo_madera.jpg");
-    padding: 35px;
-    height: 100%;
+    padding: 34px;
+    max-height: 100%;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -1107,7 +1134,7 @@ span{
 }
 
 .menustyle{
-	padding: 30px
+	padding: 40px
 
 }
 .marginstyleabout{
@@ -1132,6 +1159,16 @@ span{
 	font-size: 20px;
 	text-align: left;
 }
+
+@media (max-width: 767px) {
+
+.especialidadstyle img{
+display: none;
+
+}
+
+}
+
 
 .especialidadstyle p {
 	margin: 10px;
@@ -1167,7 +1204,17 @@ span{
     background-size: cover;
     background-repeat: no-repeat;
 
+}
 
+@media (max-width: 991px) {
+.backgroundmap{
+padding: 45px;
+
+}
+}
+
+.instagram{
+	margin-top: 25px;
 }
 /* ---------------------------------------------- /*
  * Preloader
@@ -1207,6 +1254,9 @@ span{
 /* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
+
+
+
 
 @media (max-width: 991px) {
 
@@ -1296,12 +1346,14 @@ span{
 	.module-title,
 	.callout-text,
 	.iconbox-title {
-		font: 700 40px 'Dancing Script', cursive;
+		font: 700 36px 'Dancing Script', cursive;
 		margin: 0 0 18px;
+		text-align: center;
 	}
 
 	.iconbox-title {
 		font-size: 24px;
+		
 	}
 
 	.module-subtitle {
@@ -1363,4 +1415,17 @@ span{
 }
 
 
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-collapse{
+    margin-top: 10px;
+}
+
+
+.navbar-custom .navbar-brand {
+ 	background-image: url(../images/delipepelogo.png); 
+
+}
 
